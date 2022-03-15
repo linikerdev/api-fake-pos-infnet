@@ -1,0 +1,10 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Nome do Aluno",
+            "email": "fulano@al.infnet.edu.br",
+            "password": "$2a$10$CLTIRL1xI88D.2sHZOUm4ew8tRzQGyi1NxQhzJ5HD3/oe.TNOkwSi"
+        }
+    ]
+}
