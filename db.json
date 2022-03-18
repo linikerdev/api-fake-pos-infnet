@@ -2,8 +2,14 @@
     "users": [
         {
             "id": 1,
-            "name": "Nome do Aluno",
-            "email": "fulano@al.infnet.edu.br",
+            "name": "Liniker Silva",
+            "email": "contato@liniker.com.br",
+            "password": "$2a$10$CLTIRL1xI88D.2sHZOUm4ew8tRzQGyi1NxQhzJ5HD3/oe.TNOkwSi"
+        },
+        {
+            "id": 2,
+            "name": "Elberth Faria",
+            "email": "elberth@prof.infnetn.edu.br",
             "password": "$2a$10$CLTIRL1xI88D.2sHZOUm4ew8tRzQGyi1NxQhzJ5HD3/oe.TNOkwSi"
         }
     ]

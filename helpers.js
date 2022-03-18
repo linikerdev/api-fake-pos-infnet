@@ -1,7 +1,8 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const SECRET_KEY = 'infnet'
-const JWT_EXPIRESIN = 3600 //1h
+
+const SECRET_KEY = "infnet";
+const JWT_EXPIRESIN = 60; //1h
 
 exports.generateHash = async (password) => {
   const passEncode = await bcrypt.genSaltSync(10, "a");
@@ -16,3 +17,11 @@ exports.generateToken = (payload) => {
     }),
   };
 };
+
+exports.verifyToken = (token) =>
+  jwt.verify(token, SECRET_KEY, (err, data) => {
+    if (err) {
+     return false
+    }
+    return true;
+  });
